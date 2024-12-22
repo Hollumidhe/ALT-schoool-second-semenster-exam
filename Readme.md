@@ -78,17 +78,21 @@ Follow the instruction on the terminal for successful connection. you will get t
 
 ### Installing Apache server.
 #### Steps to install Apache server.
+
 1. Change to Superuser which is root with ***sudo su***
    
 ![image](https://github.com/user-attachments/assets/34d2284e-eda6-4c6e-8dfe-4850ec4af7bc)
 
 2. Update Ubuntu package with ***sudo apt update***
+
 ![image](https://github.com/user-attachments/assets/a653b80a-14b8-4ff2-b32e-b6128ffdf304)
 
 3. Install Apache on the machine with ***sudo apt install apache2***
+
 ![image](https://github.com/user-attachments/assets/b93cb4be-1578-4e28-9876-0083ceb2567b)
 
 4. After installing the Apache server automatically start check the status with ***sudo systemctl status apache2***
+
 ![image](https://github.com/user-attachments/assets/be5c5a1a-d03c-49e8-b074-96ec730b535c)
 
 ## Step 3 Web Content Page Deployment.
@@ -103,13 +107,17 @@ Follow the instruction on the terminal for successful connection. you will get t
 ## Step 4 Networking.
 ### Configure the server to allow HTTP traffic (port 80).
 #### Steps on how to open HTTP trafic port.
+
 1. Check the status of your firewall with ***ufw status verbose***
+
 ![image](https://github.com/user-attachments/assets/5aad338e-fa22-4df7-9844-5d5ef5653e66)
 
 2. check if there are any rules added to it with ***sudo ufw show added***
+
 ![image](https://github.com/user-attachments/assets/c29c3d09-642d-4384-8f79-05836723fb63)
 
 3. Activate it since its inactive with ***sudo ufw enable*** you will get this after accepting yes.
+
 ![image](https://github.com/user-attachments/assets/f0383a03-c79c-4917-af46-c3bc4f3ef6ce)
 
 4. Allow the port for http which is 80 with***sudo ufw allow 80*** then we et this below result.
