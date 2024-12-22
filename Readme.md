@@ -1,5 +1,5 @@
 # WELCOME TO ***[Microscope Firm](http://51.21.150.27/)***
-The Microscope Firm aims to establish a modern, sustainable, and multi-functional facility to serve as a hub for community activities, education, and wellness programs in the heart of the Greenfield neighborhood. [Read More](http://51.21.150.27/)
+The ***Microscope*** Firm aims to establish a modern, sustainable, and multi-functional facility to serve as a hub for community activities, education, and wellness programs in the heart of the Greenfield neighborhood. [Read More](http://51.21.150.27/)
 ![image](https://github.com/user-attachments/assets/5ef7f353-c8f4-4ad4-b9c2-5a1bba35b2bb)
 
 # Details of the web app
@@ -23,32 +23,33 @@ click on lunch an instance
 In my case i will pick ***UBUNTU*** with the steps below:
 
 1. Choose a name and tag.
-   ![image](https://github.com/user-attachments/assets/47cd9f85-121d-4d2f-a293-18383b7fd73b)
+![image](https://github.com/user-attachments/assets/47cd9f85-121d-4d2f-a293-18383b7fd73b)
 
 2. choose Application and OS Images.
-  ![image](https://github.com/user-attachments/assets/81456476-dbbc-490a-93a6-75e0008fbaca)
+![image](https://github.com/user-attachments/assets/81456476-dbbc-490a-93a6-75e0008fbaca)
 
 3. choose the machine IMage of preference.
- ![image](https://github.com/user-attachments/assets/e6de7977-8bda-4957-aeec-7080181167d3)
+![image](https://github.com/user-attachments/assets/e6de7977-8bda-4957-aeec-7080181167d3)
 
 4. select a key pair name if you already have or create a new one
- ![image](https://github.com/user-attachments/assets/3b64e574-101f-4254-b295-e8601bff3fbb)
+![image](https://github.com/user-attachments/assets/3b64e574-101f-4254-b295-e8601bff3fbb)
 
 5. choose configure storage.
-   ![image](https://github.com/user-attachments/assets/399075e5-8b89-4777-8e9f-a07c260a033a)
+![image](https://github.com/user-attachments/assets/399075e5-8b89-4777-8e9f-a07c260a033a)
 
 6. Leave the other configuration to default and click on lunch ***instance***
-   ![image](https://github.com/user-attachments/assets/e5534c48-f44c-42cd-8cea-116a3661be06)
+![image](https://github.com/user-attachments/assets/e5534c48-f44c-42cd-8cea-116a3661be06)
 
-   A result of this will pop up after clicking the lunch instance.
-   ![image](https://github.com/user-attachments/assets/e0411a5c-cbd2-4c2c-9285-26b032104714)
+A result of this will pop up after clicking the lunch instance.
+![image](https://github.com/user-attachments/assets/e0411a5c-cbd2-4c2c-9285-26b032104714)
 
-   Now the instance is up and running.
-   ![image](https://github.com/user-attachments/assets/15a45fe3-e3fb-4d88-8045-0d93c950e0b0)
+Now the instance is up and running.
+![image](https://github.com/user-attachments/assets/15a45fe3-e3fb-4d88-8045-0d93c950e0b0)
+
 
   
 ## Step 2: Web Server Setup.
-###  Installing a web server (e.g., Apache, Nginx) to serve web content.
+###  Installing a web server (e.g., ***Apache***) to serve Web Content.
 
 Connecting to server first:
 
@@ -73,6 +74,8 @@ A result like this will pop up if definitely doing the right thing.
 Follow the instruction on the terminal for successful connection. you will get the below result.
 ![image](https://github.com/user-attachments/assets/1e028042-019a-4e37-8ed2-5a2a7cbc80d2)
 
+
+
 ### Installing Apache server.
 #### Steps to install Apache server.
 1. Change to Superuser which is root with ***sudo su***
@@ -86,7 +89,7 @@ Follow the instruction on the terminal for successful connection. you will get t
 ![image](https://github.com/user-attachments/assets/b93cb4be-1578-4e28-9876-0083ceb2567b)
 
 4. After installing the Apache server automatically start check the status with ***sudo systemctl status apache2***
-   ![image](https://github.com/user-attachments/assets/be5c5a1a-d03c-49e8-b074-96ec730b535c)
+![image](https://github.com/user-attachments/assets/be5c5a1a-d03c-49e8-b074-96ec730b535c)
 
 ## Step 3 Web Content Page Deployment.
 ### Deployin the Web Content on the server.
